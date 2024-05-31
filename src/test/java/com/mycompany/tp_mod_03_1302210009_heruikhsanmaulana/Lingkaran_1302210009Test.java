@@ -19,8 +19,8 @@ public class Lingkaran_1302210009Test {
     @Test
     public void testSetWarna() {
         Lingkaran_1302210009 L = new Lingkaran_1302210009();
-        L.setWarna_1302210009("merah");
-        assertEquals("merah", L.warna);
+        L.setWarna_1302210009("hijau"); //mengganti setWarna dari merah ke hijau
+        assertEquals("hijau", L.warna); //mengganti expected warna dari merah ke hijau
     }
 
     @Test
