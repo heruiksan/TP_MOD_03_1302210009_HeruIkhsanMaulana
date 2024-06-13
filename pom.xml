@@ -8,7 +8,14 @@
     <groupId>com.mycompany</groupId>
     <artifactId>TP_MOD_03_1302210009_HeruIkhsanMaulana</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
+    <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <sonar.organization>heruiksan</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+ </properties>
+         
     <dependencies>
         <!-- Ensure all dependencies are inside this section -->
         <dependency>
@@ -41,11 +48,6 @@
     </repository>
   </distributionManagement>
          
-<properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.organization>heruiksan</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
- </properties>
+
     
 </project>
